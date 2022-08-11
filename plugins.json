@@ -1,0 +1,21 @@
+[
+    {
+        "fileHash": "sha256-6587aa4f47b3e86c3bc4a847f78fe06a77a94d8a2b5eb11c0a682b81a863eef9",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/avatone68/supasrch",
+        "fileSize": 16252,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "avatone68"
+        ],
+        "tvTypes": [
+            "Others"
+        ],
+        "version": 2,
+        "internalName": "SupaSearch",
+        "description": "Merges search results from all installed providers",
+        "url": "https://raw.githubusercontent.com/avatone68/supasrch/builds/SupaSearch.cs3",
+        "name": "SupaSearch"
+    }
+]
