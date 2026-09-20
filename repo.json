@@ -1,0 +1,8 @@
+{
+  "name": "SupaSearch",
+  "description": "One search bar for all plugins",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/avatone68/supasrch/builds/plugins.json"
+  ]
+}
