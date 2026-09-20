@@ -1,13 +1,12 @@
-dependencies {
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1")
-}
+package com.example
 
-version = 1
+import android.content.Context
+import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
+import com.lagradost.cloudstream3.plugins.Plugin
 
-cloudstream {
-    description = "Merges search results from all installed providers"
-    authors = listOf("avatone68")
-    status = 1
-    tvTypes = listOf("Others")
-    language = "en"
+@CloudstreamPlugin
+class SupaSearchPlugin : Plugin() {
+    override fun load(context: Context) {
+        registerMainAPI(SupaSearch())
+    }
 }
